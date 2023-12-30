@@ -9,4 +9,4 @@ pm.command("start", (ctx) => ctx.reply("Welcome! Up and running."));
 
 group.command("search", searchCommand);
 
-bot.start();
+export default bot;

@@ -4,6 +4,7 @@
         "serverless": "deno run -A --unstable ./src/main.ts"
     },
     "imports": {
-        "grammy/": "https://deno.land/x/grammy@v1.19.2/"
+        "grammy/": "https://deno.land/x/grammy@v1.19.2/",
+        "server": "https://deno.land/std@0.178.0/http/server.ts"
     }
 }
